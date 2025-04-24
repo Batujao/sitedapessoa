@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* Efeito suave no hover */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta a imagem quando o usuário passa o mouse */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0077b6;
+}
+
+p {
+    max-width: 700px;
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-indent: 2em;
+}
+
+.topicos {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    transition: transform 0.2s ease, color 0.3s ease; /* Efeito suave de cor e movimento */
+}
+
+li:hover {
+    transform: translateX(10px); /* Move os itens da lista para a direita no hover */
+    color: #0077b6; /* Muda a cor do texto no hover */
+}
+
+li ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 20px; /* Tamanho do texto */
+    transition: transform 0.2s ease, color 0.3s ease; /* Efeito suave */
+}
+
+footer a:hover {
+    color: #f1f1f1; /* Muda a cor do texto no hover */
+    transform: translateX(5px); /* Move o link para a direita */
+}
+
+footer i {
+    font-size: 24px; /* Tamanho do ícone */
+    transition: color 0.3s ease; /* Efeito de cor no ícone */
+}
+
+footer a:hover i {
+    color: #f1f1f1; /* Muda a cor do ícone no hover */
+}
